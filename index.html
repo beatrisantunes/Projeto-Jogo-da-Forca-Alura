@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Smooch&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./src/styles/game.css">
+    <title>Jogo da Forca</title>
+    <link rel="stylesheet" href="./src/styles/global.css">
+    <link rel="stylesheet" href="./src/styles/header.css">
+    <link rel="stylesheet" href="./src/styles/start/start.css">
+    <link rel="stylesheet" href="./src/styles/start/menu-start.css">
+    <link rel="stylesheet" href="./src/styles/start/menu-word.css">
+</head>
+
+<body class="container" data-app>
+    <header class="header wrap">
+        <button class="header__darkmode-button" data-dark-mode data-button="dark-mode">
+        <img class="header__darkmode-image--normal" src="./src/assets/icon/moon-light.svg" data-button="image-fix"/>
+        <img class="header__darkmode-image--sun" src="./src/assets/icon/sun-dim-light.svg" data-button="image-fix" />
+        <img class="header__darkmode-image--moon"src="./src/assets/icon/moon-light-d.svg" data-button="image-fix"/>
+      </button>
+        <a class="header__link" href="https://github.com/beatrisantunes" target="_blank">Desenvolvido por Beatris Antunes</a>
+    </header>
+    <main>
+        <div class="start" data-start>
+            <div class="start-box">
+                <div class="menu-start">
+                    <div class="menu-start-box" data-button="close-event-start-game">
+                        <button class="menu-start-box__button--start" data-button="start-game">Começar a jogar</button>
+                        <div class="menu-start-box__dificult hide" data-mode-box>
+                            <div class="menu-start-box__dificult--box event" data-mode-event>
+                                <button class="menu-start-box__dificult--btn-random" data-button="random-mode">Random</button>
+                                <button class="menu-start-box__dificult--btn-normal" data-button="normal-mode">Normal</button>
+                                <button class="menu-start-box__dificult--btn-hard" data-button="hard-mode">Hard</button>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="menu-start__button--addword" data-button="add-new-word">Adicionar palavra</button>
+                </div>
+                <div class="menu-word" data-menu-word>
+                    <div class="menu-word__header">
+                        <div class="menu-word__header--response-box">
+                            <p class="menu-word__header--success" data-resp="success"></p>
+                            <p class="menu-word__header--invalid" data-resp="invalid"></p>
+                        </div>
+                        <div class="menu-word__header--action-box">
+                            <button class="menu-word__header--button-info" data-button="info">info</button>
+                            <button class="menu-word__header--button-exit" data-button="exit">X</button>
+                        </div>
+                    </div>
+                    <input class="menu-word__input" type="text" placeholder="digite a palavra aqui..." data-text="user-word">
+                    <div class="menu-word__info" data-menu-info data-button="close-event-info">
+                        <ul class="menu-word__info--list" data-menu-info="list">
+                            <h4 class="menu-word__info--title"><strong>A palavra tem que ser :</strong></h4>
+                            <li class="menu-word__info--item">Menor que 8 letras</li>
+                            <li class="menu-word__info--item">Maior que 3 letras</li>
+                            <li class="menu-word__info--item">Sem acentos</li>
+                            <li class="menu-word__info--item">Sem numeros</li>
+                            <li class="menu-word__info--item">Sem simbolos</li>
+                        </ul>
+                        <p class="menu-word__info--click">Click para fechar</p>
+                    </div>
+                    <div class="menu-word__button-box">
+                        <button class="menu-word__button-box--save-word" data-button="save-new-word">Salvar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="game-box" data-game>
+            <div class="game-box-event" data-game="event">
+                <div class="image-box">
+                    <img class="image" src="./src/assets/img/try0.svg" alt="Forca + Boneco de palito">
+                </div>
+                <div class="result-box">
+                    <p class="info-response">A palavra era: </p>
+                    <p class="secret-word"></p>
+                </div>
+                <div class="control-box">
+                    <p class="info-control">Escolha uma letra para começar jogar</p>
+                    <div class="keyboard-box">
+                        <div class="response"></div>
+                    </div>
+                    <p class="score-box">Tentativas: <span class="attempts">0</span> / <span class="max-attempts" data-attempts></span></p>
+                    <div class="buttons-box">
+                        <button class="btn-reset" onclick="reset()">Novo jogo</button>
+                        <button class="btn-surrender" onclick="surrender()">Desistir</button>
+                    </div>
+                </div>
+                <div class="link">
+                    <a href="https://github.com/beatrisantunes" target="_blank"><img src="src/assets/icon/Github.svg" alt="GitHub"></a>
+                    <a href="https://www.linkedin.com/in/beatrisantunessilva/" target="_blank"><img src="src/assets/icon/Linkedin.svg" alt="Linkedin"></a>
+
+                </div>
+            </div>
+        </div>
+        </div>
+    </main>
+    <script src="./src/js/start.js"></script>
+    <script src="./src/js/gameRework.js"></script>
+    <script type="module" src="./src/js/main.js"></script>
+</body>
+
+</html>
