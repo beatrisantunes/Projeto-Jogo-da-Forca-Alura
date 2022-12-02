@@ -1,5 +1,5 @@
 ## Jogo da Forca
-Projeto desenvolvido para o desafio da Challenge Oracle ONE na formação de Iniciante em Programação, com o objetivo de aprender o básico da lógica de programação e JavaScript, foi proposto fazer um Jogo da Forca em Javascript.
+Projeto desenvolvido para o desafio da Challenge Oracle ONE na formação de linguagem Java, com o objetivo de aprender a linguagem, foi proposto fazer um conversor de moedas em Java.
 
 
 <p align="center">
@@ -9,17 +9,5 @@ Projeto desenvolvido para o desafio da Challenge Oracle ONE na formação de Ini
   
 ### O projeto
 
-É um jogo em que o jogador tem que acertar qual é a palavra proposta, tendo como dica o número de letras. A cada letra errada, é desenhado uma parte do corpo do enforcado.
-
-##
-
-### Resultado do projeto
-
-<p align="center">
-<img width="500" src="src/assets/img/prévia.gif">
-
-##
-
-### Link: https://beatrisantunes.github.io/Projeto-Jogo-da-Forca-Alura/
-
+É um Coversor de medidas que mede moedas e temperatura.
 
