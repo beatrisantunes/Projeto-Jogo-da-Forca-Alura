@@ -1,4 +1,4 @@
-## Jogo da Forca
+<h1 align="center">Jogo da Forca</h1>
 Projeto desenvolvido para o desafio da Challenge Oracle ONE na formação de Iniciante em Programação, com o objetivo de aprender o básico da lógica de programação e JavaScript, foi proposto fazer um Jogo da Forca em Javascript.
 
 
