@@ -12,11 +12,11 @@ Projeto desenvolvido para o desafio da Challenge Oracle ONE na formação de Ini
   ## Resultado:
 <img width="500" src="src/assets/img/prévia.gif">
   
-  ## 🛠 Tecnologias: ##
+  ## 💻🛠 Tecnologias e Ferramentas: 
   - HTML
   - CSS
   - JavaScript
   - Git e Github
 
   ## Link:
-[🔗 Clique aqui para acessar](https://beatrisantunes.github.io/Projeto-Jogo-da-Forca-Alura/)
+[🔗 Site](https://beatrisantunes.github.io/Projeto-Jogo-da-Forca-Alura/)
