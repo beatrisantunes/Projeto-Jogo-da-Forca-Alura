@@ -9,7 +9,7 @@ Projeto desenvolvido para o desafio da Challenge Oracle ONE na formação de Ini
   
   É um jogo em que o jogador tem que acertar qual é a palavra proposta, tendo como dica o número de letras. A cada letra errada, é desenhado uma parte do corpo do enforcado.
 
-  ## Resultado:
+  ## 📌 Resultado:
 <img width="500" src="src/assets/img/prévia.gif">
   
   ## 💻🛠 Tecnologias e Ferramentas: 
@@ -18,5 +18,5 @@ Projeto desenvolvido para o desafio da Challenge Oracle ONE na formação de Ini
   - JavaScript
   - Git e Github
 
-  ## Link:
-[🔗 Site](https://beatrisantunes.github.io/Projeto-Jogo-da-Forca-Alura/)
+  ## 🔗 Link:
+[ Site](https://beatrisantunes.github.io/Projeto-Jogo-da-Forca-Alura/)
